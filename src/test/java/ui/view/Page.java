@@ -11,16 +11,12 @@ public abstract class Page {
         this.driver = driver;
     }
 
-    public WebDriver getDriver() {
-        return driver;
-    }
-
     public String getPath() {
         return path;
     }
 
     public String getTitle () {
-         return driver.getTitle();
+        return driver.getTitle();
     }
 
 }
